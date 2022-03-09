@@ -1,0 +1,202 @@
+/**
+<h1>FTSecondScene.css</h1>
+
+<p>This File is the CSS styling for the first stage of the FoodTracker application. This includes all of the
+TextBoxes, ComboBoxes, MenuBars (and all children), and the tables as well.</p>
+
+<p>Created: 03/09/2022</p>
+
+@author Rhett Boatright
+**/
+
+.root{
+    -fx-background-color: linear-gradient(to top right, #86C1B9, #F7CA88);
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+}
+
+.label{
+    -fx-font-size: 15;
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+    -fx-text-fill: #383838;
+}
+
+.menu-bar{
+    -fx-background-color: #BFB6B0;
+}
+
+.menu-item:hover{
+    -fx-background-color: #F7CA88;
+}
+
+.menu-item{
+    -fx-background-color: #FFFFFF;
+}
+
+.menu:hover{
+    -fx-background-color: #F7CA88;
+}
+
+.menu:showing{
+    -fx-background-color: #86C1B9;
+}
+
+.button{
+    -fx-background-color: #F7CA88;
+    -fx-text-fill: #282828;
+    -fx-background-radius: 10;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#FA8072, #F7CA88);
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-background-color: #FA8072;
+}
+
+.text-field{
+    -fx-background-color: rgb(228,228,228, .45);
+    -fx-background-radius: 10;
+    -fx-text-fill: #282828;
+    -fx-prompt-text-fill: #585858;
+    -fx-border-color: transparent;
+    -fx-border-width: 3;
+    -fx-border-radius: 10;
+}
+
+.text-field:hover{
+        -fx-background-color: rgb(255,128,114,.45);
+}
+
+.text-field:focused{
+    -fx-border-color: #86C1B9;
+}
+
+.combo-box{
+    -fx-background-color: rgb(228,228,228, .45);
+    -fx-background-radius: 10;
+    -fx-prompt-text-fill: #585858;
+    -fx-text-fill: #282828;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-border-color: transparent;
+}
+
+.combo-box-popup .list-cell{
+    -fx-background-color: #E4E4E4;
+}
+
+
+.combo-box-popup .list-view{
+    -fx-background-color: #E4E4E4;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover{
+   -fx-background-color: rgb(255,128,114,.45);
+}
+
+.combo-box-popup .cell:selected{
+    -fx-background-color: #86C1B9;
+}
+
+.combo-box:hover{
+    -fx-background-color: rgb(250,128,114,.45);
+    -fx-cursor: hand;
+}
+
+.combo-box:focused{
+    -fx-border-color: #86C1B9;
+}
+
+
+.table-view{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.table-view > .virtual-flow{
+    -fx-effect: innershadow(gaussian ,rgba( 0, 0, 0, 0.5 ), 10, 0, 5, 5 );
+}
+
+.table-view:focused{
+    -fx-border-color: #86C1B9;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler{
+    -fx-background-color: transparent;
+}
+
+.table-view .corner{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label{
+    -fx-font-size: 13;
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+    -fx-text-fill: #282828;
+
+}
+
+.table-view .column-header{
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-style: hidden hidden hidden hidden;
+}
+
+.table-view .table-column{
+    -fx-font-size: 10;
+}
+
+#custom-columnFx{
+    -fx-alignment: CENTER;
+    -fx-padding: 10 0;
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #282828;
+    -fx-border-color: transparent;
+}
+
+.table-row-cell{
+    -fx-background-color: rgb(228,228,228, .25);
+    -fx-background-insets:0, 0 0 1 0;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: rgb(228,228,228, .45);
+}
+
+.table-row-cell:hover{
+    -fx-background-color: rgb(250,128,114,.45);
+}
+
+
+.table-row-cell:selected{
+    -fx-background-color: #7CAFC2;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background{
+    -fx-background-color:transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical{
+    -fx-color: rgb(228,228,228,.3);
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal{
+    -fx-color: rgb(228,228,228,.3);
+}
+

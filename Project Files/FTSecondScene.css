@@ -1,0 +1,91 @@
+/**
+<h1>FTSecondScene.css</h1>
+
+<p>This File is the CSS styling for the second stage of the FoodTracker application. This is used for adding food
+into the database and I wanted it to look a little different to the main part of the application.</p>
+
+<p>Created: 03/09/2022</p>
+
+@author Rhett Boatright
+**/
+
+.root{
+    -fx-background-color: linear-gradient(to top right, #A1B56C, #F7CA88);
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+}
+
+.label{
+    -fx-font-size: 15;
+    -fx-font-family: "System San Francisco Display Regular.ttf";
+    -fx-text-fill: #383838;
+}
+
+.combo-box{
+    -fx-background-color: rgb(228,228,228, .45);
+    -fx-background-radius: 10;
+    -fx-prompt-text-fill: #585858;
+    -fx-text-fill: #282828;
+    -fx-border-width: 3;
+    -fx-border-radius: 10;
+    -fx-border-color: transparent;
+}
+
+.combo-box-popup .list-cell{
+    -fx-background-color: #E4E4E4;
+}
+
+
+.combo-box-popup .list-view{
+    -fx-background-color: #E4E4E4;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover{
+   -fx-background-color: rgb(255,128,114,.45);
+}
+
+.combo-box-popup .cell:selected{
+    -fx-background-color: #86C1B9;
+}
+
+.combo-box:hover{
+    -fx-background-color: rgb(250,128,114,.45);
+    -fx-cursor: hand;
+}
+
+.combo-box:focused{
+    -fx-border-color: #86C1B9;
+}
+
+.button{
+    -fx-background-color: #F7CA88;
+    -fx-text-fill: #282828;
+    -fx-background-radius: 10;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#FA8072, #F7CA88);
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-background-color: #FA8072;
+}
+
+
+.text-field{
+     -fx-background-color: rgb(228,228,228, .45);
+     -fx-background-radius:10;
+     -fx-text-fill: #282828;
+     -fx-prompt-text-fill: #585858;
+     -fx-border-color: transparent;
+     -fx-border-width: 3;
+     -fx-border-radius: 10;
+}
+
+.text-field:hover{
+    -fx-background-color: rgb(250,128,114,.45);
+}
+
+.text-field:focused{
+    -fx-border-color: #86C1B9;
+}
