@@ -36,7 +36,7 @@ The files needed to run this application are FoodTracker.java, Food.java, FoodIt
         }
 ```
 This bit of code allowed me to pull information from the MySQL database inorder to put the information into the table and allow for the user to use it.
-Without this, the code would not work as a database and the user would need to input every single item and there nutrition into the calculator.
+Without this, the code would not work as a database and the user would need to input every single item and its nutrition into the calculator.
 
 ## Test
 Do to the methods not returning any values that I can test for, there is no JUnit test for this program.
